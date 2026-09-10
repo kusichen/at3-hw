@@ -14,6 +14,6 @@ public class CheckRemovedNameTest {
 
         String nameRemoved = "Коля";
 
-        System.out.println(CheckFindMaxInRangeTest.CheckRemovedName.removeSpecialName(nameList, nameRemoved));
+        System.out.println(CheckRemovedName.removeSpecialName(nameList, nameRemoved));
     }
 }

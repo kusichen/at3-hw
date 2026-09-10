@@ -13,6 +13,6 @@ public class CheckCalcAvgTest {
         myNumbers.add(2);
         myNumbers.add(3);
 
-        System.out.println(CheckFindMaxInRangeTest.CheckCalcAvg.calcAverage(myNumbers));
+        System.out.println(CheckCalcAvg.calcAverage(myNumbers));
     }
 }
