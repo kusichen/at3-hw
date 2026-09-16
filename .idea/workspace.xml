@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3Izxr7Dd2yi40Ydw2ta3YoIaOt4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +33,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.CheckAccessTest.executor": "Run",
+    "Gradle.CheckCalcAvgTest.executor": "Run",
+    "Gradle.CheckEvenInRangeTest.executor": "Run",
+    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
+    "Gradle.CheckGradeTest.executor": "Run",
+    "Gradle.CheckHasBugTest.executor": "Run",
+    "Gradle.CheckIsBlastOffTest.executor": "Run",
+    "Gradle.CheckIsEvenTest.executor": "Run",
+    "Gradle.CheckIsPositiveTest.executor": "Run",
+    "Gradle.CheckRemovedNameTest.executor": "Run",
+    "Gradle.CheckReverseTest.executor": "Run",
+    "Gradle.CheckSumToNTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
