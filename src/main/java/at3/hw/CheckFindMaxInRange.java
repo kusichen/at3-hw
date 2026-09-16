@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckFindMaxInRange {
     public static int findMax(int[] arr) {
         int max = arr[0];

@@ -1,3 +1,6 @@
+package at3.hw;
+
+import at3.hw.CheckFindMaxInRange;
 import org.junit.jupiter.api.Test;
 
 public class CheckFindMaxInRangeTest {

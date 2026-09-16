@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckIsPositive {
     public static boolean isPositive(int n) {
 

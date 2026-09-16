@@ -1,3 +1,5 @@
+package at3.hw;
+
 import java.util.List;
 
 public class CheckCalcAvg {

@@ -1,3 +1,6 @@
+package at3.hw;
+
+import at3.hw.CheckGrade;
 import org.junit.jupiter.api.Test;
 
 public class CheckGradeTest {

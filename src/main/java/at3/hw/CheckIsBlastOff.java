@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckIsBlastOff {
     public static String isBlastOff(int start) {
         StringBuilder newString = new StringBuilder();

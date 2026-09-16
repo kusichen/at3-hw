@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/CheckThreeClassesFromFirstLesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckCalcAvg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckCalcAvg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckEvenInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckEvenInRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckFindMaxInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckFindMaxInRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckHasBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckHasBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckIsBlastOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckIsBlastOff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckIsEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckIsEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckIsPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckIsPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckRemovedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckRemovedName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckSumToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at3/hw/CheckSumToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckAccessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckAccessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckCalcAvgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEvenInRangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckEvenInRangeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckFindMaxInRangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckFindMaxInRangeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckGradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckGradeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckHasBugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckHasBugTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckIsBlastOffTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckIsBlastOffTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckIsEvenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckIsEvenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckIsPositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckIsPositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckRemovedNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckRemovedNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckReverseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckSumToNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckSumToNTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +45,44 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3Izxr7Dd2yi40Ydw2ta3YoIaOt4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,10 +91,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AT3-MyHW [reportTest].executor": "Run",
+    "Gradle.Build AT3-MyHW.executor": "Run",
     "Gradle.CheckAccessTest.executor": "Run",
+    "Gradle.CheckCalcAvgTest.executor": "Run",
+    "Gradle.CheckEvenInRangeTest.executor": "Run",
+    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
+    "Gradle.CheckGradeTest.executor": "Run",
+    "Gradle.CheckHasBugTest.executor": "Run",
+    "Gradle.CheckIsBlastOffTest.executor": "Run",
+    "Gradle.CheckIsEvenTest.executor": "Run",
+    "Gradle.CheckIsPositiveTest.executor": "Run",
+    "Gradle.CheckRemovedNameTest.executor": "Run",
+    "Gradle.CheckReverseTest.executor": "Run",
+    "Gradle.CheckSumToNTest.executor": "Run",
+    "Gradle.CheckThreeClassesFromFirstLesson.executor": "Run",
+    "Gradle.RunAllTestsTest.executor": "Run",
+    "Kotlin script (Beta).build.gradle.kts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "at3__hw2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/MyGit/AT3-MyHW/src/test/java"
   }
@@ -44,6 +121,35 @@
       <recent name="C:\MyGit\AT3-MyHW\src\test\java" />
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AT3-MyHW [reportTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AT3-MyHW [reportTest]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
