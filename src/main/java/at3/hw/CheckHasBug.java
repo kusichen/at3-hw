@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckHasBug {
 
     public static boolean hasBug(String[]messages){

@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckGrade {
 
     public static String getGrade(int score) {

@@ -1,3 +1,6 @@
+package at3.hw;
+
+import at3.hw.CheckRemovedName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

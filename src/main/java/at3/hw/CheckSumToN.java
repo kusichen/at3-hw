@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckSumToN {
 
     public static int sumToN(int n) {

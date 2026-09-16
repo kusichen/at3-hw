@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckAccess {
 
     public static String checkAccess(int age){

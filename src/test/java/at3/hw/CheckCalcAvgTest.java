@@ -1,3 +1,6 @@
+package at3.hw;
+
+import at3.hw.CheckCalcAvg;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
