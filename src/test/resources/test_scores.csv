@@ -1,0 +1,8 @@
+score;expected
+15;E
+30;D
+50;C
+75;B
+90;A
+-5;Error
+105;Error

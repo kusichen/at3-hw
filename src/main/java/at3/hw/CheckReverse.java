@@ -1,3 +1,5 @@
+package at3.hw;
+
 public class CheckReverse {
 
     public static String[] reverse(String[] arr){
