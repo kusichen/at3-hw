@@ -1,7 +1,9 @@
 package at3.hw.hw2;
 
 import at3.hw.*;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -11,35 +13,31 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 public class RunAllTestsTest {
 
     //простой тест с рандомным значением
-    @Test
+    @RepeatedTest(10)
+    @Tag("N-Test")
     void getGradeWithRandomScore(){
 
         int random = ThreadLocalRandom.current().nextInt(1,100);
         String result = CheckGrade.getGrade(random);
         String expected = calculateEpectedGrade(random);
 
-        if(result.equals(expected)){
-            System.out.println("TEST PASSED");
-        } else {
-            System.out.println("TEST FAILED");
-        }
+        assertEquals(expected,result,"TEST PASSED");
     }
 
     @RepeatedTest(10)
+    @Tag("N-Test")
     void repeatedTestReverseWord(){
         String[] rev = {"one","two","three"};
 
         String[] result = CheckReverse.reverse(rev);
         String[] expected = {"three","two","one"};
 
-        if(Arrays.equals(result,expected)){
-            System.out.println("TEST PASSED");
-        }else {
-            System.out.println("TEST FAILED");
-        }
+        assertArrayEquals(result,expected,"TEST PASSED");
 
     }
 
@@ -53,39 +51,32 @@ public class RunAllTestsTest {
             "-5, Error",
             "105, Error"
     }, delimiter = ',')
+            @Tag("N-Test")
    /* @CsvFileSource(resources = "/test_scores.csv",numLinesToSkip = 1)*/
     void parametrizedTestFromCsv(int score, String expected){
         String result = CheckGrade.getGrade(score);
 
-        if(result.equals(expected)){
-            System.out.println("TEST PASSED");
-        } else {
-            System.out.println("TEST FAILED");
-        }
+        assertEquals(expected,result,"TEST PASSED");
     }
 
 
-   @Test
+   @RepeatedTest(10)
+   @Tag("N-Test")
     void startMethodCheckHasBug(){
 
         String[] arr = {"BUG","Error","Fiature"};
 
-        String expected = "BUG";
-        String result = String.valueOf(CheckHasBug.hasBug(arr));
-        if(result.equals(expected)){
-            System.out.println("TEST PASSED");
-        }
-        else{
-            System.out.println("TEST FAILED");
-        }
-
-
+        assertTrue(Boolean.parseBoolean(String.valueOf(CheckHasBug.hasBug(arr))),"TEST PASSED");
     }
 
     @Test
     void startOtherMethod()
     {
         CheckCalcAvg calcAvg = new CheckCalcAvg();
+
+
+
+
 
         if(calcAvg.equals(14.0)){
             System.out.println("TEST PASSED");
@@ -114,11 +105,7 @@ public class RunAllTestsTest {
 
         String[] result = new String[]{CheckIsBlastOff.isBlastOff(5)};
 
-        if (result.equals(expected)) {
-            System.out.println("TEST PASSED");
-        } else {
-            System.out.println("TEST FAILED");
-        }
+        assertArrayEquals(expected,result,"TEST PASSED");
     }
 
 
