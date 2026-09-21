@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw3/CheckAssertionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +95,7 @@
     "Gradle.CheckRemovedNameTest.executor": "Run",
     "Gradle.CheckReverseTest.executor": "Run",
     "Gradle.CheckSumToNTest.executor": "Run",
+    "Gradle.RunAllTestsTest (1).executor": "Run",
     "Gradle.RunAllTestsTest.executor": "Run",
     "Kotlin script (Beta).build.gradle.kts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -113,7 +112,7 @@
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RunAllTestsTest">
+  <component name="RunManager">
     <configuration name="AT3-MyHW [clean test :tasks]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
