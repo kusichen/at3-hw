@@ -66,9 +66,9 @@ public class RunAllTestsTest {
     @Test
     void startCheckCalcAvg() {
         List<Integer> numberList = Arrays.asList(1, 2, 3, 4, 5);
-        double expectedNormal = 3.0;
-        double actualNormal = CheckCalcAvg.calcAverage(numberList);
-        if (actualNormal == expectedNormal) {
+        double expectedAvg = 3.0;
+        double actualAvg = CheckCalcAvg.calcAverage(numberList);
+        if (actualAvg == expectedAvg) {
             System.out.println("TEST PASSED");
         } else {
             System.out.println("TEST FAILED");
