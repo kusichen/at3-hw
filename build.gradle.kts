@@ -15,9 +15,9 @@ dependencies {
     testImplementation("org.assertj:assertj-core:4.0.0-M1")
 }
 
-/*tasks.test {
+tasks.test {
     useJUnitPlatform()
-}*/
+}
 
 tasks.register<Test>("reportTest"){
     group = "myTestInHw2"

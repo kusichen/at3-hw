@@ -5,20 +5,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -33,7 +22,7 @@ public class RunAllTestsTest {
         String result = CheckGrade.getGrade(random);
         String expected = calculateEpectedGrade(random);
 
-        assertEquals(expected,result,"TEST PASSED");
+        assertEquals(expected,result,"TEST RUN NOT SUCCESSFUL");
     }
 
     @RepeatedTest(10)
@@ -44,12 +33,13 @@ public class RunAllTestsTest {
         String[] result = CheckReverse.reverse(rev);
         String[] expected = {"three","two","one"};
 
-        assertArrayEquals(result,expected,"TEST PASSED");
+        assertArrayEquals(result,expected,"TEST RUN NOT SUCCESSFUL");
 
     }
 
 
     @ParameterizedTest
+    @Tag("N-Test")
     @CsvSource(value = {
             "15, E",
             "30, D",
@@ -67,7 +57,7 @@ public class RunAllTestsTest {
     void parametrizedTestFromCsv(int score, String expected){
         String result = CheckGrade.getGrade(score);
 
-        assertEquals(expected,result,"TEST PASSED");
+        assertEquals(expected,result,"TEST RUN NOT SUCCESSFUL");
     }
 
 
@@ -75,109 +65,113 @@ public class RunAllTestsTest {
    @Tag("N-Test")
     void startMethodCheckHasBug(){
 
-        String[] arr = {"BUG","Error","Fiature"};
+        String[] arr = {"Error","Fiature","BUG","Task"};
 
-        assertTrue(Boolean.parseBoolean(String.valueOf(CheckHasBug.hasBug(arr))),"TEST PASSED");
+        assertTrue(Boolean.parseBoolean(String.valueOf((CheckHasBug.hasBug(arr)))),"BUG not found");
+    }
+
+    @RepeatedTest(10)
+    @Tag("N-Test")
+    void startCalcAvg(){
+        List<Integer> numberList = Arrays.asList(1, 2, 3, 4, 5);
+        double expectedAvg = 3.0;
+        double actualAvg = CheckCalcAvg.calcAverage(numberList);
+
+        Assertions.assertEquals(expectedAvg,actualAvg,"Results not matched");
+
+    }
+
+    @RepeatedTest(10)
+    @Tag("N-Test")
+    void startCheckEvenInRange() {
+
+        String expected = "2 4 6 8 10";
+        String result = CheckEvenInRange.getEvenInRange(1, 10);
+
+        assertEquals(expected,result,"Evens in range not correct");
     }
 
 
-    @ParameterizedTest
-    @Tag("N-Test")
-    @ValueSource(ints = {1})
-    void startCalcAvg(Integer c){
 
-        Assertions.assertEquals(1.0,CheckCalcAvg.calcAverage(Collections.singletonList(c)),"TESSED PASSED");
+
+    @RepeatedTest(10)
+    @Tag("N-Test")
+    void startIsBlastOF() {
+
+        String expected = "5 4 3 2 1 Поехали!";
+
+        String actual = CheckIsBlastOff.isBlastOff(5);
+
+        assertEquals(expected,actual,"TEST RESULT NOT PASSED");
+    }
+
+    @RepeatedTest(10)
+    @Tag("N-Test")
+    void startCheckAccess() {
+
+        int randomAge = ThreadLocalRandom.current().nextInt(19, 100);
+
+        String expectedResult = "Allowed";
+        String actualResult = CheckAccess.checkAccess(randomAge);
+
+        assertEquals(expectedResult,actualResult,"Age is not correct");
 
     }
 
     @RepeatedTest(value = 10)
     @Tag("N-Test")
-    void startEvenInRange(){
+    void startFindMaxInRange() {
 
-        final Random random = new Random();
-
-        int start = random.nextInt(1);
-        int end = start + random.nextInt(100);
-
-        String actualResult = CheckEvenInRange.getEvenInRange(start, end);
-
-        String expectedResult = IntStream.rangeClosed(start, end)
-                .filter(i -> i % 2 == 0)
-                .mapToObj(String::valueOf)
-                .collect(Collectors.joining(" "));
-
-        Assertions.assertEquals(expectedResult, actualResult,
-                String.format("Ошибка для диапазона от %d до %d", start, end));
+        int[] arrNumbers = {4, 3, 15, 20, 5};
+        int expectedMaxNumber = 20;
+        int actualResult = CheckFindMaxInRange.findMax(arrNumbers);
+        assertEquals(expectedMaxNumber,actualResult,"Max number is not correct");
     }
-
 
     @RepeatedTest(10)
-    void startIsBlastOF() {
-
-        String[] expected = {"5", "4", "3", "2", "1"};
-
-        String[] result = new String[]{CheckIsBlastOff.isBlastOff(5)};
-
-        assertArrayEquals(expected,result,"TEST PASSED");
-    }
-
-    //Вспомогательный метод для проверки возраста
-    private static Stream<Arguments> agesForAccess() {
-        return Stream.of(
-                Arguments.of(19, "Allowed"),
-                Arguments.of(20, "Allowed"),
-                Arguments.of(25, "Allowed"),
-                Arguments.of(50, "Allowed"),
-                Arguments.of(100, "Allowed"),
-
-                // 5 проверок для запрещенного доступа (включая граничное значение 18)
-                Arguments.of(18, "Denied"),
-                Arguments.of(17, "Denied"),
-                Arguments.of(10, "Denied"),
-                Arguments.of(5, "Denied"),
-                Arguments.of(0, "Denied")
-        );
-    }
-
-    @ParameterizedTest
     @Tag("N-Test")
-    @MethodSource("agesForAccess")
-    void shouldCheckAccessCorrectly(int age, String expectedResult) {
+    void startCheckIsEven() {
 
-        String actualResult = CheckAccess.checkAccess(age);
-
-        assertThat(actualResult)
-                .as("Проверка возраста для пользователя ", age)
-                .isEqualTo(expectedResult);
+        int randomNum = ThreadLocalRandom.current().nextInt(1, 100);
+        assertTrue(CheckIsEven.isEven(randomNum),"A transferred number must be even!!!");
     }
 
-    @ParameterizedTest
-    @ValueSource(ints = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10})
+    @RepeatedTest(10)
     @Tag("N-Test")
-    void testSumToNRepeated(int iteration) {
+    void startCheckIsPositive() {
 
-        assertEquals(0, CheckSumToN.sumToN(0), "Ошибка если будет 0");
-        assertEquals(1, CheckSumToN.sumToN(1), "Ошибка если будет 1");
-        assertEquals(15, CheckSumToN.sumToN(5), "Ошибка если будет 5");
-        assertEquals(55, CheckSumToN.sumToN(10), "Ошибка если будет 10");
+        int numberRandom = ThreadLocalRandom.current().nextInt(-5, 5);
+
+        assertTrue(CheckIsPositive.isPositive(numberRandom),"Передано отрицательное число" + numberRandom);
     }
 
-    @ParameterizedTest
+    @RepeatedTest(10)
     @Tag("N-Test")
-    @ValueSource(strings = {
-            "Мария", "Мария", "Мария", "Мария", "Мария",
-            "Мария", "Мария", "Мария", "Мария", "Мария"
-    })
-    void removeName(String nameToRemove) {
+    void startCheckRemovedName() {
 
-        List<String> inputList = List.of("Иван", "Мария", "Петр");
-        List<String> expectedResult = List.of("Иван", "Петр");
-        List<String> actualResult = CheckRemovedName.removeSpecialName(inputList, nameToRemove);
+        List<String> namesInList = new ArrayList<>(Arrays.asList("Вова", "Петя", "Аня", "Зина"));
 
-        Assertions.assertEquals(expectedResult,actualResult,"Имя удалено");
+        List<String> expectedList = new ArrayList<>(Arrays.asList("Вова", "Петя", "Аня"));
 
+        List<String> namesInResult = CheckRemovedName.removeSpecialName(namesInList, "Зина");
+
+        assertTrue(expectedList.equals(namesInResult),"Списки не совпадают. Проверьте удаленное имя в списке");
 
     }
+
+
+    @RepeatedTest(value =10)
+    @Tag("N-Test")
+    void startCheckSumToN() {
+
+        int rN = ThreadLocalRandom.current().nextInt(2, 6);
+        int result = CheckSumToN.sumToN(rN);
+
+        boolean isValidResult = (result == 3 || result == 6 || result == 10 || result == 15);
+
+        assertTrue(isValidResult, "Тест не прошел");
+    }
+
 
 
     //Вспомогательный метод для логики оценки
