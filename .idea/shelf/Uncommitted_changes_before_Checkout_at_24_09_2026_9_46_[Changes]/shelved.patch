@@ -1,0 +1,116 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"34a499fa-5195-4493-b973-7098a18402f6\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/build.gradle.kts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build.gradle.kts\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <task path=\"$PROJECT_DIR$\">\r\n          <activation />\r\n        </task>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"AT3-MyHW\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"AT3-MyHW\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"AT3-MyHW\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\r\n                <item name=\"mytestinhw2\" type=\"c8890929:TasksNode$1\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"hw3\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3Izxr7Dd2yi40Ydw2ta3YoIaOt4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Gradle.AT3-MyHW [clean test :tasks].executor\": \"Run\",\r\n    \"Gradle.AT3-MyHW [reportTest].executor\": \"Run\",\r\n    \"Gradle.Build AT3-MyHW.executor\": \"Run\",\r\n    \"Gradle.CheckAccessTest.executor\": \"Run\",\r\n    \"Gradle.CheckAssertionsTest.executor\": \"Run\",\r\n    \"Gradle.CheckAssertionsTest.testHasNoEvenNumbers.executor\": \"Run\",\r\n    \"Gradle.CheckAssertionsTest.testListContainsValue.executor\": \"Run\",\r\n    \"Gradle.CheckCalcAvgTest.executor\": \"Run\",\r\n    \"Gradle.CheckEvenInRangeTest.executor\": \"Run\",\r\n    \"Gradle.CheckFindMaxInRangeTest.executor\": \"Run\",\r\n    \"Gradle.CheckGradeTest.executor\": \"Run\",\r\n    \"Gradle.CheckHasBugTest.executor\": \"Run\",\r\n    \"Gradle.CheckIsBlastOffTest.executor\": \"Run\",\r\n    \"Gradle.CheckIsEvenTest.executor\": \"Run\",\r\n    \"Gradle.CheckIsPositiveTest.executor\": \"Run\",\r\n    \"Gradle.CheckRemovedNameTest.executor\": \"Run\",\r\n    \"Gradle.CheckReverseTest.executor\": \"Run\",\r\n    \"Gradle.CheckSumToNTest.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest (1).executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.executor\": \"Run\",\r\n    \"Kotlin script (Beta).build.gradle.kts.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"hw3Assert\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/MyGit/AT3-MyHW/src/test/java\",\r\n    \"settings.editor.selected.configurable\": \"reference.settingsdialog.project.gradle\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\MyGit\\AT3-MyHW\\src\\test\\java\" />\r\n      <recent name=\"C:\\MyGit\\AT3-MyHW\\src\\main\\java\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"AT3-MyHW [clean test :tasks]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" nameIsGenerated=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"-D test\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\"clean\" />\r\n            <option value=\"test\" />\r\n            <option value=\":tasks\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>false</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"AT3-MyHW [reportTest]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"-Prun-tests -Dtest.tags=N-Test\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\"test\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>false</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"CheckAssertionsTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw3.CheckAssertionsTest&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"CheckAssertionsTest.testHasNoEvenNumbers\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw3.CheckAssertionsTest.testHasNoEvenNumbers&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"CheckAssertionsTest.testListContainsValue\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw3.CheckAssertionsTest.testListContainsValue&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"RunAllTestsTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":reportTest\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw2.RunAllTestsTest&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Gradle.AT3-MyHW [clean test :tasks]\" />\r\n      <item itemvalue=\"Gradle.RunAllTestsTest\" />\r\n      <item itemvalue=\"Gradle.AT3-MyHW [reportTest]\" />\r\n      <item itemvalue=\"Gradle.CheckAssertionsTest\" />\r\n      <item itemvalue=\"Gradle.CheckAssertionsTest.testHasNoEvenNumbers\" />\r\n      <item itemvalue=\"Gradle.CheckAssertionsTest.testListContainsValue\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Gradle.RunAllTestsTest\" />\r\n        <item itemvalue=\"Gradle.CheckAssertionsTest\" />\r\n        <item itemvalue=\"Gradle.AT3-MyHW [reportTest]\" />\r\n        <item itemvalue=\"Gradle.CheckAssertionsTest.testListContainsValue\" />\r\n        <item itemvalue=\"Gradle.CheckAssertionsTest.testHasNoEvenNumbers\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4\" />\r\n        <option value=\"jdk-22-openjdk-22-3183f394aec4-bad0321e\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"34a499fa-5195-4493-b973-7098a18402f6\" name=\"Changes\" comment=\"\" />\r\n      <created>1788781395535</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1788781395535</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,10 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,17 +30,6 @@
+                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                 <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
+               </path>
+-              <path>
+-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+-                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
+-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+-              </path>
+-              <path>
+-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+-                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
+-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+-                <item name="mytestinhw2" type="c8890929:TasksNode$1" />
+-              </path>
+             </expand>
+             <select />
+           </tree_state>
+@@ -75,44 +61,44 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Gradle.AT3-MyHW [clean test :tasks].executor": "Run",
+-    "Gradle.AT3-MyHW [reportTest].executor": "Run",
+-    "Gradle.Build AT3-MyHW.executor": "Run",
+-    "Gradle.CheckAccessTest.executor": "Run",
+-    "Gradle.CheckAssertionsTest.executor": "Run",
+-    "Gradle.CheckAssertionsTest.testHasNoEvenNumbers.executor": "Run",
+-    "Gradle.CheckAssertionsTest.testListContainsValue.executor": "Run",
+-    "Gradle.CheckCalcAvgTest.executor": "Run",
+-    "Gradle.CheckEvenInRangeTest.executor": "Run",
+-    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
+-    "Gradle.CheckGradeTest.executor": "Run",
+-    "Gradle.CheckHasBugTest.executor": "Run",
+-    "Gradle.CheckIsBlastOffTest.executor": "Run",
+-    "Gradle.CheckIsEvenTest.executor": "Run",
+-    "Gradle.CheckIsPositiveTest.executor": "Run",
+-    "Gradle.CheckRemovedNameTest.executor": "Run",
+-    "Gradle.CheckReverseTest.executor": "Run",
+-    "Gradle.CheckSumToNTest.executor": "Run",
+-    "Gradle.RunAllTestsTest (1).executor": "Run",
+-    "Gradle.RunAllTestsTest.executor": "Run",
+-    "Kotlin script (Beta).build.gradle.kts.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "hw3Assert",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/MyGit/AT3-MyHW/src/test/java",
+-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Gradle.AT3-MyHW [clean test :tasks].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.AT3-MyHW [reportTest].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Build AT3-MyHW.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckAccessTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckAssertionsTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckAssertionsTest.testHasNoEvenNumbers.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckAssertionsTest.testListContainsValue.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckCalcAvgTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckEvenInRangeTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckFindMaxInRangeTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckGradeTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckHasBugTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckIsBlastOffTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckIsEvenTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckIsPositiveTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckRemovedNameTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckReverseTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest (1).executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
++    &quot;Kotlin script (Beta).build.gradle.kts.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;hw3Assert&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/MyGit/AT3-MyHW/src/test/java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\MyGit\AT3-MyHW\src\test\java" />
+       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Gradle.AT3-MyHW [clean test :tasks]">
+     <configuration name="AT3-MyHW [clean test :tasks]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />

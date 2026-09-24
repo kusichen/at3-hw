@@ -1,0 +1,168 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"34a499fa-5195-4493-b973-7098a18402f6\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/at3/hw/CheckSumToNTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/at3/hw/CheckSumToNTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <task path=\"$PROJECT_DIR$\">\r\n          <activation />\r\n        </task>\r\n        <projects_view />\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3Izxr7Dd2yi40Ydw2ta3YoIaOt4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Gradle.CheckAccessTest.executor\": \"Run\",\r\n    \"Gradle.CheckCalcAvgTest.executor\": \"Run\",\r\n    \"Gradle.CheckEvenInRangeTest.executor\": \"Run\",\r\n    \"Gradle.CheckFindMaxInRangeTest.executor\": \"Run\",\r\n    \"Gradle.CheckGradeTest.executor\": \"Run\",\r\n    \"Gradle.CheckHasBugTest.executor\": \"Run\",\r\n    \"Gradle.CheckIsBlastOffTest.executor\": \"Run\",\r\n    \"Gradle.CheckIsEvenTest.executor\": \"Run\",\r\n    \"Gradle.CheckIsPositiveTest.executor\": \"Run\",\r\n    \"Gradle.CheckRemovedNameTest.executor\": \"Run\",\r\n    \"Gradle.CheckReverseTest.executor\": \"Run\",\r\n    \"Gradle.CheckSumToNTest (1).executor\": \"Run\",\r\n    \"Gradle.CheckSumToNTest.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startCheckAccess.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startCheckEvenInRange.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startCheckIsEven.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startCheckIsPositive.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startCheckRemovedName.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startCheckSumToN.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startIsBlastOF.executor\": \"Run\",\r\n    \"Gradle.RunAllTestsTest.startMethodCheckHasBug.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/MyGit/AT3-MyHW/src/test/java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\MyGit\\AT3-MyHW\\src\\test\\java\" />\r\n      <recent name=\"C:\\MyGit\\AT3-MyHW\\src\\main\\java\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Gradle.RunAllTestsTest\">\r\n    <configuration name=\"CheckSumToNTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.CheckSumToNTest&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"RunAllTestsTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw2.RunAllTestsTest&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"RunAllTestsTest.startCheckSumToN\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw2.RunAllTestsTest.startCheckSumToN&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"RunAllTestsTest.startIsBlastOF\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw2.RunAllTestsTest.startIsBlastOF&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"RunAllTestsTest.startMethodCheckHasBug\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;at3.hw.hw2.RunAllTestsTest.startMethodCheckHasBug&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Gradle.CheckSumToNTest\" />\r\n      <item itemvalue=\"Gradle.RunAllTestsTest.startCheckSumToN\" />\r\n      <item itemvalue=\"Gradle.RunAllTestsTest.startIsBlastOF\" />\r\n      <item itemvalue=\"Gradle.RunAllTestsTest.startMethodCheckHasBug\" />\r\n      <item itemvalue=\"Gradle.RunAllTestsTest\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Gradle.RunAllTestsTest\" />\r\n        <item itemvalue=\"Gradle.RunAllTestsTest.startIsBlastOF\" />\r\n        <item itemvalue=\"Gradle.RunAllTestsTest.startMethodCheckHasBug\" />\r\n        <item itemvalue=\"Gradle.RunAllTestsTest.startCheckSumToN\" />\r\n        <item itemvalue=\"Gradle.CheckSumToNTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"34a499fa-5195-4493-b973-7098a18402f6\" name=\"Changes\" comment=\"\" />\r\n      <created>1788781395535</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1788781395535</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,9 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/CheckSumToNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckSumToNTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,7 +24,17 @@
+         <task path="$PROJECT_DIR$">
+           <activation />
+         </task>
+-        <projects_view />
++        <projects_view>
++          <tree_state>
++            <expand>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
++              </path>
++            </expand>
++            <select />
++          </tree_state>
++        </projects_view>
+       </state>
+     </system>
+   </component>
+@@ -41,45 +50,46 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Gradle.CheckAccessTest.executor": "Run",
+-    "Gradle.CheckCalcAvgTest.executor": "Run",
+-    "Gradle.CheckEvenInRangeTest.executor": "Run",
+-    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
+-    "Gradle.CheckGradeTest.executor": "Run",
+-    "Gradle.CheckHasBugTest.executor": "Run",
+-    "Gradle.CheckIsBlastOffTest.executor": "Run",
+-    "Gradle.CheckIsEvenTest.executor": "Run",
+-    "Gradle.CheckIsPositiveTest.executor": "Run",
+-    "Gradle.CheckRemovedNameTest.executor": "Run",
+-    "Gradle.CheckReverseTest.executor": "Run",
+-    "Gradle.CheckSumToNTest (1).executor": "Run",
+-    "Gradle.CheckSumToNTest.executor": "Run",
+-    "Gradle.RunAllTestsTest.executor": "Run",
+-    "Gradle.RunAllTestsTest.startCheckAccess.executor": "Run",
+-    "Gradle.RunAllTestsTest.startCheckEvenInRange.executor": "Run",
+-    "Gradle.RunAllTestsTest.startCheckIsEven.executor": "Run",
+-    "Gradle.RunAllTestsTest.startCheckIsPositive.executor": "Run",
+-    "Gradle.RunAllTestsTest.startCheckRemovedName.executor": "Run",
+-    "Gradle.RunAllTestsTest.startCheckSumToN.executor": "Run",
+-    "Gradle.RunAllTestsTest.startIsBlastOF.executor": "Run",
+-    "Gradle.RunAllTestsTest.startMethodCheckHasBug.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/MyGit/AT3-MyHW/src/test/java"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Gradle.CheckAccessTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckCalcAvgTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckEvenInRangeTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckFindMaxInRangeTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckGradeTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckHasBugTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckIsBlastOffTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckIsEvenTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckIsPositiveTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckRemovedNameTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckReverseTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckSumToNTest (1).executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckAccess.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckCalcAvg.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckEvenInRange.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckIsEven.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckIsPositive.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckRemovedName.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startCheckSumToN.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startIsBlastOF.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.RunAllTestsTest.startMethodCheckHasBug.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/MyGit/AT3-MyHW/src/test/java&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\MyGit\AT3-MyHW\src\test\java" />
+       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Gradle.RunAllTestsTest">
+-    <configuration name="CheckSumToNTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++  <component name="RunManager" selected="Gradle.RunAllTestsTest.startCheckCalcAvg">
++    <configuration name="RunAllTestsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+@@ -92,7 +102,7 @@
+           <list>
+             <option value=":test" />
+             <option value="--tests" />
+-            <option value="&quot;at3.hw.CheckSumToNTest&quot;" />
++            <option value="&quot;at3.hw.hw2.RunAllTestsTest&quot;" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -103,7 +113,7 @@
+       <RunAsTest>true</RunAsTest>
+       <method v="2" />
+     </configuration>
+-    <configuration name="RunAllTestsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="RunAllTestsTest.startCheckCalcAvg" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+@@ -116,7 +126,7 @@
+           <list>
+             <option value=":test" />
+             <option value="--tests" />
+-            <option value="&quot;at3.hw.hw2.RunAllTestsTest&quot;" />
++            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startCheckCalcAvg&quot;" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -200,7 +210,7 @@
+       <method v="2" />
+     </configuration>
+     <list>
+-      <item itemvalue="Gradle.CheckSumToNTest" />
++      <item itemvalue="Gradle.RunAllTestsTest.startCheckCalcAvg" />
+       <item itemvalue="Gradle.RunAllTestsTest.startCheckSumToN" />
+       <item itemvalue="Gradle.RunAllTestsTest.startIsBlastOF" />
+       <item itemvalue="Gradle.RunAllTestsTest.startMethodCheckHasBug" />
+@@ -208,11 +218,11 @@
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Gradle.RunAllTestsTest.startCheckCalcAvg" />
+         <item itemvalue="Gradle.RunAllTestsTest" />
+         <item itemvalue="Gradle.RunAllTestsTest.startIsBlastOF" />
+         <item itemvalue="Gradle.RunAllTestsTest.startMethodCheckHasBug" />
+         <item itemvalue="Gradle.RunAllTestsTest.startCheckSumToN" />
+-        <item itemvalue="Gradle.CheckSumToNTest" />
+       </list>
+     </recent_temporary>
+   </component>
