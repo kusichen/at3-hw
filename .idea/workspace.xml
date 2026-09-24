@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/CheckCalcAvgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw2/RunAllTestsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +29,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="AT3-MyHW" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="mytestinhw2" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -75,44 +61,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AT3-MyHW [clean test :tasks].executor": "Run",
-    "Gradle.AT3-MyHW [reportTest].executor": "Run",
-    "Gradle.Build AT3-MyHW.executor": "Run",
-    "Gradle.CheckAccessTest.executor": "Run",
-    "Gradle.CheckAssertionsTest.executor": "Run",
-    "Gradle.CheckAssertionsTest.testHasNoEvenNumbers.executor": "Run",
-    "Gradle.CheckAssertionsTest.testListContainsValue.executor": "Run",
-    "Gradle.CheckCalcAvgTest.executor": "Run",
-    "Gradle.CheckEvenInRangeTest.executor": "Run",
-    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
-    "Gradle.CheckGradeTest.executor": "Run",
-    "Gradle.CheckHasBugTest.executor": "Run",
-    "Gradle.CheckIsBlastOffTest.executor": "Run",
-    "Gradle.CheckIsEvenTest.executor": "Run",
-    "Gradle.CheckIsPositiveTest.executor": "Run",
-    "Gradle.CheckRemovedNameTest.executor": "Run",
-    "Gradle.CheckReverseTest.executor": "Run",
-    "Gradle.CheckSumToNTest.executor": "Run",
-    "Gradle.RunAllTestsTest (1).executor": "Run",
-    "Gradle.RunAllTestsTest.executor": "Run",
-    "Kotlin script (Beta).build.gradle.kts.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hw3Assert",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/MyGit/AT3-MyHW/src/test/java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AT3-MyHW [clean test :tasks].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AT3-MyHW [reportTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build AT3-MyHW.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckAccessTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckAssertionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckAssertionsTest.testHasNoEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckAssertionsTest.testListContainsValue.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckCalcAvgTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckEvenInRangeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckFindMaxInRangeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckGradeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckHasBugTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckIsBlastOffTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckIsEvenTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckIsPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckRemovedNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckReverseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).build.gradle.kts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw3Assert&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyGit/AT3-MyHW/src/test/java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyGit\AT3-MyHW\src\test\java" />
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AT3-MyHW [clean test :tasks]">
     <configuration name="AT3-MyHW [clean test :tasks]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
