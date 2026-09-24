@@ -6,8 +6,10 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -16,24 +18,24 @@ public class RunAllTestsTest {
     //простой тест с рандомным значением
     @RepeatedTest(10)
     @Tag("N-Test")
-    void getGradeWithRandomScore(){
+    void getGradeWithRandomScore() {
 
-        int random = ThreadLocalRandom.current().nextInt(1,100);
+        int random = ThreadLocalRandom.current().nextInt(1, 100);
         String result = CheckGrade.getGrade(random);
         String expected = calculateEpectedGrade(random);
 
-        assertEquals(expected,result,"TEST RUN NOT SUCCESSFUL");
+        assertEquals(expected, result, "TEST RUN NOT SUCCESSFUL: " + result + " Ожидалось: " + expected);
     }
 
     @RepeatedTest(10)
     @Tag("N-Test")
-    void repeatedTestReverseWord(){
-        String[] rev = {"one","two","three"};
+    void repeatedTestReverseWord() {
+        String[] rev = {"one", "two", "three"};
 
         String[] result = CheckReverse.reverse(rev);
-        String[] expected = {"three","two","one"};
+        String[] expected = {"three", "two", "one"};
 
-        assertArrayEquals(result,expected,"TEST RUN NOT SUCCESSFUL");
+        assertArrayEquals(result, expected, "TEST RUN NOT SUCCESSFUL: " + result + " Ожидалось: " + expected);
 
     }
 
@@ -52,32 +54,32 @@ public class RunAllTestsTest {
             "-5, Error",
             "105, Error"
     }, delimiter = ',')
-            @Tag("N-Test")
-   /* @CsvFileSource(resources = "/test_scores.csv",numLinesToSkip = 1)*/
-    void parametrizedTestFromCsv(int score, String expected){
+    @Tag("N-Test")
+    void parametrizedTestFromCsv(int score, String expected) {
         String result = CheckGrade.getGrade(score);
 
-        assertEquals(expected,result,"TEST RUN NOT SUCCESSFUL");
+        assertEquals(expected, result, "TEST RUN NOT SUCCESSFUL: " + result + " Ожидалось: " + expected);
     }
 
 
-   @RepeatedTest(10)
-   @Tag("N-Test")
-    void startMethodCheckHasBug(){
+    @RepeatedTest(10)
+    @Tag("N-Test")
+    void startMethodCheckHasBug() {
 
-        String[] arr = {"Error","Fiature","BUG","Task"};
+        String[] arr = {"Error", "Fiature", "Task", "BUG"};
 
-        assertTrue(Boolean.parseBoolean(String.valueOf((CheckHasBug.hasBug(arr)))),"BUG not found");
+        assertTrue(Boolean.parseBoolean(String.valueOf((CheckHasBug.hasBug(arr)))),
+                "Результат: " + Arrays.toString(arr) + " Ожидалось : Error, Fiature, Task, BUG");
     }
 
     @RepeatedTest(10)
     @Tag("N-Test")
-    void startCalcAvg(){
+    void startCalcAvg() {
         List<Integer> numberList = Arrays.asList(1, 2, 3, 4, 5);
         double expectedAvg = 3.0;
         double actualAvg = CheckCalcAvg.calcAverage(numberList);
 
-        Assertions.assertEquals(expectedAvg,actualAvg,"Results not matched");
+        Assertions.assertEquals(expectedAvg, actualAvg, "Results not matched" + actualAvg + " Ожидалось: " + expectedAvg);
 
     }
 
@@ -88,10 +90,8 @@ public class RunAllTestsTest {
         String expected = "2 4 6 8 10";
         String result = CheckEvenInRange.getEvenInRange(1, 10);
 
-        assertEquals(expected,result,"Evens in range not correct");
+        assertEquals(expected, result, "Evens in range not correct: " + result + " Ожидалось: " + expected);
     }
-
-
 
 
     @RepeatedTest(10)
@@ -102,7 +102,7 @@ public class RunAllTestsTest {
 
         String actual = CheckIsBlastOff.isBlastOff(5);
 
-        assertEquals(expected,actual,"TEST RESULT NOT PASSED");
+        assertEquals(expected, actual, "TEST RESULT NOT PASSED: " + actual + " Ожидалось: " + expected);
     }
 
     @RepeatedTest(10)
@@ -114,7 +114,7 @@ public class RunAllTestsTest {
         String expectedResult = "Allowed";
         String actualResult = CheckAccess.checkAccess(randomAge);
 
-        assertEquals(expectedResult,actualResult,"Age is not correct");
+        assertEquals(expectedResult, actualResult, "Age is not correct: " + randomAge + " " + actualResult + " Ожидалось: " + expectedResult);
 
     }
 
@@ -125,7 +125,7 @@ public class RunAllTestsTest {
         int[] arrNumbers = {4, 3, 15, 20, 5};
         int expectedMaxNumber = 20;
         int actualResult = CheckFindMaxInRange.findMax(arrNumbers);
-        assertEquals(expectedMaxNumber,actualResult,"Max number is not correct");
+        assertEquals(expectedMaxNumber, actualResult, "Max number is not correct: " + actualResult + " Ожидалось: " + expectedMaxNumber);
     }
 
     @RepeatedTest(10)
@@ -133,7 +133,7 @@ public class RunAllTestsTest {
     void startCheckIsEven() {
 
         int randomNum = ThreadLocalRandom.current().nextInt(1, 100);
-        assertTrue(CheckIsEven.isEven(randomNum),"A transferred number must be even!!!");
+        assertTrue(CheckIsEven.isEven(randomNum), "A transferred number must be even!!!" + " Переданное число: " + randomNum + " Ожидалось, что число будет четным");
     }
 
     @RepeatedTest(10)
@@ -141,8 +141,9 @@ public class RunAllTestsTest {
     void startCheckIsPositive() {
 
         int numberRandom = ThreadLocalRandom.current().nextInt(-5, 5);
+        int[] expNumbers = {0, 1, 2, 3, 4, 5};
 
-        assertTrue(CheckIsPositive.isPositive(numberRandom),"Передано отрицательное число" + numberRandom);
+        assertTrue(CheckIsPositive.isPositive(numberRandom), "Передано отрицательное число: " + numberRandom + " Ожидается число положительное: " + Arrays.toString(expNumbers));
     }
 
     @RepeatedTest(10)
@@ -155,27 +156,25 @@ public class RunAllTestsTest {
 
         List<String> namesInResult = CheckRemovedName.removeSpecialName(namesInList, "Зина");
 
-        assertTrue(expectedList.equals(namesInResult),"Списки не совпадают. Проверьте удаленное имя в списке");
+        assertTrue(expectedList.equals(namesInResult), "Ожидаемый список: " + expectedList + " Полученный список: " + namesInResult);
 
     }
 
 
-    @RepeatedTest(value =10)
+    @RepeatedTest(value = 10)
     @Tag("N-Test")
     void startCheckSumToN() {
 
-        int rN = ThreadLocalRandom.current().nextInt(2, 6);
-        int result = CheckSumToN.sumToN(rN);
+        int provNumber = 4;
+        int expNumber = 10;
+        int result = CheckSumToN.sumToN(provNumber);
 
-        boolean isValidResult = (result == 3 || result == 6 || result == 10 || result == 15);
-
-        assertTrue(isValidResult, "Тест не прошел");
+        assertEquals(expNumber, result, "Ошибка!" + " Полученный результат: " + result + " Ожидалось: " + expNumber);
     }
 
 
-
     //Вспомогательный метод для логики оценки
-    private static String calculateEpectedGrade(int score){
+    private static String calculateEpectedGrade(int score) {
         if (score >= 0 && score <= 20) {
             return "E";
         } else if (score >= 21 && score <= 40) {
