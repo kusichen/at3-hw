@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,6 +53,12 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="hw3" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw3Assert" />
+>>>>>>> master
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +74,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+<<<<<<< HEAD
     &quot;Gradle.AT3-MyHW [clean test :tasks].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.AT3-MyHW [reportTest].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build AT3-MyHW.executor&quot;: &quot;Run&quot;,
@@ -70,6 +82,9 @@
     &quot;Gradle.CheckAssertionsTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CheckAssertionsTest.testHasNoEvenNumbers.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CheckAssertionsTest.testListContainsValue.executor&quot;: &quot;Run&quot;,
+=======
+    &quot;Gradle.CheckAccessTest.executor&quot;: &quot;Run&quot;,
+>>>>>>> master
     &quot;Gradle.CheckCalcAvgTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CheckEvenInRangeTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CheckFindMaxInRangeTest.executor&quot;: &quot;Run&quot;,
@@ -80,6 +95,7 @@
     &quot;Gradle.CheckIsPositiveTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CheckRemovedNameTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CheckReverseTest.executor&quot;: &quot;Run&quot;,
+<<<<<<< HEAD
     &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.RunAllTestsTest (1).executor&quot;: &quot;Run&quot;,
     &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
@@ -90,6 +106,24 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/MyGit/AT3-MyHW/src/test/java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+=======
+    &quot;Gradle.CheckSumToNTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckEvenInRange.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckIsEven.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckIsPositive.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckRemovedName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckSumToN.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startIsBlastOF.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startMethodCheckHasBug.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyGit/AT3-MyHW/src/test/java&quot;
+>>>>>>> master
   }
 }</component>
   <component name="RecentsManager">
@@ -98,6 +132,7 @@
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Gradle.AT3-MyHW [clean test :tasks]">
     <configuration name="AT3-MyHW [clean test :tasks]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
@@ -217,6 +252,9 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+=======
+  <component name="RunManager" selected="Gradle.RunAllTestsTest.startCheckCalcAvg">
+>>>>>>> master
     <configuration name="RunAllTestsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -228,7 +266,11 @@
         </option>
         <option name="taskNames">
           <list>
+<<<<<<< HEAD
             <option value=":reportTest" />
+=======
+            <option value=":test" />
+>>>>>>> master
             <option value="--tests" />
             <option value="&quot;at3.hw.hw2.RunAllTestsTest&quot;" />
           </list>
@@ -241,6 +283,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <list>
       <item itemvalue="Gradle.AT3-MyHW [clean test :tasks]" />
       <item itemvalue="Gradle.RunAllTestsTest" />
@@ -248,14 +291,125 @@
       <item itemvalue="Gradle.CheckAssertionsTest" />
       <item itemvalue="Gradle.CheckAssertionsTest.testHasNoEvenNumbers" />
       <item itemvalue="Gradle.CheckAssertionsTest.testListContainsValue" />
+=======
+    <configuration name="RunAllTestsTest.startCheckCalcAvg" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startCheckCalcAvg&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunAllTestsTest.startCheckSumToN" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startCheckSumToN&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunAllTestsTest.startIsBlastOF" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startIsBlastOF&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunAllTestsTest.startMethodCheckHasBug" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startMethodCheckHasBug&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.RunAllTestsTest.startCheckCalcAvg" />
+      <item itemvalue="Gradle.RunAllTestsTest.startCheckSumToN" />
+      <item itemvalue="Gradle.RunAllTestsTest.startIsBlastOF" />
+      <item itemvalue="Gradle.RunAllTestsTest.startMethodCheckHasBug" />
+      <item itemvalue="Gradle.RunAllTestsTest" />
+>>>>>>> master
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RunAllTestsTest" />
+<<<<<<< HEAD
         <item itemvalue="Gradle.CheckAssertionsTest" />
         <item itemvalue="Gradle.AT3-MyHW [reportTest]" />
         <item itemvalue="Gradle.CheckAssertionsTest.testListContainsValue" />
         <item itemvalue="Gradle.CheckAssertionsTest.testHasNoEvenNumbers" />
+=======
+        <item itemvalue="Gradle.RunAllTestsTest.startMethodCheckHasBug" />
+        <item itemvalue="Gradle.RunAllTestsTest.startIsBlastOF" />
+        <item itemvalue="Gradle.RunAllTestsTest.startCheckSumToN" />
+        <item itemvalue="Gradle.RunAllTestsTest.startCheckCalcAvg" />
+>>>>>>> master
       </list>
     </recent_temporary>
   </component>
