@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShopAllMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +46,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -54,45 +70,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.CheckAccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckCalcAvgTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckEvenInRangeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckFindMaxInRangeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckGradeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckHasBugTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckIsBlastOffTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckIsEvenTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckIsPositiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckRemovedNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckReverseTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckSumToNTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startCheckAccess.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startCheckEvenInRange.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startCheckIsEven.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startCheckIsPositive.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startCheckRemovedName.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startCheckSumToN.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startIsBlastOF.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunAllTestsTest.startMethodCheckHasBug.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MyGit/AT3-MyHW/src/test/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AT3-MyHW [:test --test \"RestAssured.restAss\"].executor": "Run",
+    "Gradle.AT3-MyHW [:test --tests \"RestAssured.restAss\"].executor": "Run",
+    "Gradle.CheckAccessTest.executor": "Run",
+    "Gradle.CheckCalcAvgTest.executor": "Run",
+    "Gradle.CheckEvenInRangeTest.executor": "Run",
+    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
+    "Gradle.CheckGradeTest.executor": "Run",
+    "Gradle.CheckHasBugTest.executor": "Run",
+    "Gradle.CheckIsBlastOffTest.executor": "Run",
+    "Gradle.CheckIsEvenTest.executor": "Run",
+    "Gradle.CheckIsPositiveTest.executor": "Run",
+    "Gradle.CheckRemovedNameTest.executor": "Run",
+    "Gradle.CheckReverseTest.executor": "Run",
+    "Gradle.CheckSumToNTest (1).executor": "Run",
+    "Gradle.CheckSumToNTest.executor": "Run",
+    "Gradle.RestApiShop.checkEmptyGoodsShop.executor": "Run",
+    "Gradle.RestApiShop.checkEmptyGoodsShopAgain.executor": "Run",
+    "Gradle.RestApiShop.createGoodCardInShop.executor": "Run",
+    "Gradle.RestApiShop.executor": "Run",
+    "Gradle.RestApiShop.getGoodCardAndAssert.executor": "Run",
+    "Gradle.RestApiShop.getGoodsInShop.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.createGoodCard.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.createGoodCardWithExistingName.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.deleteExistingGood.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.deleteNoneExistingGood.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.getGoodById.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.getGoodsListToFetchId.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.getNotExistingGoodById.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.patchGoodNotCorrectly.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.patchNotExistingGoodCardInShop.executor": "Run",
+    "Gradle.RestApiShopAllMethodTest.updateGoodCardInShop.executor": "Run",
+    "Gradle.RestAssured.executor": "Run",
+    "Gradle.RestAssured.restAss.executor": "Run",
+    "Gradle.RunAllTestsTest.executor": "Run",
+    "Gradle.RunAllTestsTest.startCheckAccess.executor": "Run",
+    "Gradle.RunAllTestsTest.startCheckEvenInRange.executor": "Run",
+    "Gradle.RunAllTestsTest.startCheckIsEven.executor": "Run",
+    "Gradle.RunAllTestsTest.startCheckIsPositive.executor": "Run",
+    "Gradle.RunAllTestsTest.startCheckRemovedName.executor": "Run",
+    "Gradle.RunAllTestsTest.startCheckSumToN.executor": "Run",
+    "Gradle.RunAllTestsTest.startIsBlastOF.executor": "Run",
+    "Gradle.RunAllTestsTest.startMethodCheckHasBug.executor": "Run",
+    "JAR Application.oa_at_train_project-1.0.jar (1).executor": "Run",
+    "JAR Application.oa_at_train_project-1.0.jar (2).executor": "Run",
+    "JAR Application.oa_at_train_project-1.0.jar.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "rest-api",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/usich/Desktop/API-APP-SHOP",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.55517244"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyGit\AT3-MyHW\src\test\java" />
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RunAllTestsTest.startCheckCalcAvg">
-    <configuration name="RunAllTestsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RestApiShopAllMethodTest">
+    <configuration name="AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +148,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.hw2.RunAllTestsTest&quot;" />
+            <option value="&quot;RestAssured.restAss&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestApiShopAllMethodTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -116,7 +183,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RunAllTestsTest.startCheckCalcAvg" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestApiShopAllMethodTest.deleteExistingGood" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,7 +196,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startCheckCalcAvg&quot;" />
+            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest.deleteExistingGood&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,7 +207,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RunAllTestsTest.startCheckSumToN" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestApiShopAllMethodTest.deleteNoneExistingGood" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -153,7 +220,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startCheckSumToN&quot;" />
+            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest.deleteNoneExistingGood&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,7 +231,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RunAllTestsTest.startIsBlastOF" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestApiShopAllMethodTest.patchGoodNotCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -177,7 +244,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startIsBlastOF&quot;" />
+            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest.patchGoodNotCorrectly&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -188,7 +255,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RunAllTestsTest.startMethodCheckHasBug" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestApiShopAllMethodTest.patchNotExistingGoodCardInShop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,7 +268,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.hw2.RunAllTestsTest.startMethodCheckHasBug&quot;" />
+            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest.patchNotExistingGoodCardInShop&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,19 +280,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.RunAllTestsTest.startCheckCalcAvg" />
-      <item itemvalue="Gradle.RunAllTestsTest.startCheckSumToN" />
-      <item itemvalue="Gradle.RunAllTestsTest.startIsBlastOF" />
-      <item itemvalue="Gradle.RunAllTestsTest.startMethodCheckHasBug" />
-      <item itemvalue="Gradle.RunAllTestsTest" />
+      <item itemvalue="Gradle.AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" />
+      <item itemvalue="Gradle.RestApiShopAllMethodTest" />
+      <item itemvalue="Gradle.RestApiShopAllMethodTest.deleteExistingGood" />
+      <item itemvalue="Gradle.RestApiShopAllMethodTest.deleteNoneExistingGood" />
+      <item itemvalue="Gradle.RestApiShopAllMethodTest.patchGoodNotCorrectly" />
+      <item itemvalue="Gradle.RestApiShopAllMethodTest.patchNotExistingGoodCardInShop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RunAllTestsTest" />
-        <item itemvalue="Gradle.RunAllTestsTest.startMethodCheckHasBug" />
-        <item itemvalue="Gradle.RunAllTestsTest.startIsBlastOF" />
-        <item itemvalue="Gradle.RunAllTestsTest.startCheckSumToN" />
-        <item itemvalue="Gradle.RunAllTestsTest.startCheckCalcAvg" />
+        <item itemvalue="Gradle.RestApiShopAllMethodTest" />
+        <item itemvalue="Gradle.RestApiShopAllMethodTest.deleteExistingGood" />
+        <item itemvalue="Gradle.RestApiShopAllMethodTest.deleteNoneExistingGood" />
+        <item itemvalue="Gradle.RestApiShopAllMethodTest.patchGoodNotCorrectly" />
+        <item itemvalue="Gradle.RestApiShopAllMethodTest.patchNotExistingGoodCardInShop" />
       </list>
     </recent_temporary>
   </component>
@@ -246,5 +314,36 @@
       <updated>1788781395535</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShop.java</url>
+          <line>12</line>
+          <properties class="at3.hw.restAPI.RestAssured" method="restAss">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShopAllMethodTest.java</url>
+          <line>265</line>
+          <properties class="at3.hw.restAPI.RestApiShopAllMethodTest" method="deleteExistingGood">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AT3_MyHW$.ic" NAME=" Coverage Results" MODIFIED="1791053772587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AT3_MyHW$oa_at_train_project_1_0_jar__2_.ic" NAME="oa_at_train_project-1.0.jar (2) Coverage Results" MODIFIED="1791053065167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
