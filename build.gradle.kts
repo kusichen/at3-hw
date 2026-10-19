@@ -16,6 +16,8 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-core:2.22.1")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.22.3")
     testImplementation("org.assertj:assertj-core:3.27.7")
+    implementation("org.seleniumhq.selenium:selenium-java:4.49.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.51.0")
 }
 
 tasks.test {

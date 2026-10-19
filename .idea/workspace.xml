@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShopAllMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_45__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_09_2026_9_46__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,15 +320,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShopAllMethodTest.java</url>
-          <line>265</line>
-          <properties class="at3.hw.restAPI.RestApiShopAllMethodTest" method="deleteExistingGood">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
