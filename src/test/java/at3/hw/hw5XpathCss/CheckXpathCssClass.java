@@ -1,90 +1,122 @@
 package at3.hw.hw5XpathCss;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.SelenideElement;
+import org.junit.jupiter.api.*;
+import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selenide.*;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-import java.time.Duration;
-
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class CheckXpathCssClass {
 
-    public static void main(String[] args) {
+    @BeforeAll
+    public static void openSite() {
 
-        // 1. Инициализируем драйвер для браузера Chrome
-        WebDriver driver = new ChromeDriver();
+        Configuration.baseUrl = "http://localhost:8080";
+        Configuration.browser = "chrome";
+        Configuration.browserSize = "2540x1080";
+        Configuration.timeout = 1000;
+        open("http://localhost:8080");
+    }
 
-        try {
-            // Настраиваем неявное ожидание элементов (до 10 секунд)
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    @Test
+    @Order(1)
+    @DisplayName("Список названий товаров через Xpath")
+    public void checkXpathGoodNamesList() {
+        String goodNameListXpath = ("//div[@class='product-card']/h4");
+        $x(goodNameListXpath).shouldBe(visible);
+        SelenideElement productCardsList = $x(goodNameListXpath);
+        productCardsList.shouldBe(visible);
+    }
 
-            // Разворачиваем окно браузера на весь экран
-            driver.manage().window().maximize();
+    @Test
+    @Order(2)
+    @DisplayName("Список названий товаров через Css")
+    public void checkСssGoodNamesList() {
+        String goodNameListCss = ".product-card h4";
+        $(goodNameListCss).shouldBe(visible);
+        SelenideElement productCardsList = $(goodNameListCss);
+        productCardsList.shouldBe(visible);
+    }
 
-            // 2. Открываем сайт
-            driver.get("http://localhost:8080/");
+    @Test
+    @Order(3)
+    @DisplayName("Список цен товаров через Xpath")
+    public void checkXpathPriceList() {
+        String goodPriceListXpath = ("//*[contains(text(), '₽')]");
+        $x(goodPriceListXpath).shouldBe(visible);
+        SelenideElement priceCardsList = $x(goodPriceListXpath);
+        priceCardsList.shouldBe(visible);
+    }
 
-            List<WebElement> productElements = driver.findElements(By.xpath("//h4"));
+    @Test
+    @Order(4)
+    @DisplayName("Название товаров с ценой 25 Css")
+    public void checkCssPrice25() {
+        String goodPrice25Css = ".product-card[data-price='25'] h4";
+        $(goodPrice25Css).shouldBe(visible);
+        SelenideElement priceCard25Css = $(goodPrice25Css);
+        priceCard25Css.shouldBe(visible);
+    }
 
-            List<WebElement> productElementsGoods = driver.findElements(By.xpath("//*[contains(text(), '₽')]"));
+    @Test
+    @Order(5)
+    @DisplayName("Название товаров с ценой 25 xPath")
+    public void checkXpathPrice25() {
+        String goodPrice25Xpath = ("//div[@class = 'product-card' and @data-price='25']/h4");
+        $x(goodPrice25Xpath).shouldBe(visible);
+        SelenideElement priceCard25Xpath = $x(goodPrice25Xpath);
+        priceCard25Xpath.shouldBe(visible);
+    }
 
-// 2. Извлекаем текст из каждого элемента в список строк (Java 8+)
-            List<String> productNames = productElements.stream()
-                    .map(WebElement::getText)
-                    .collect(Collectors.toList());
+    @Test
+    @Order(6)
+    @DisplayName("Цена товара с названием Стакан через XPath")
+    public void checkXpathSpecialCardName() {
+        String goodSpecialNameXpath = ("//div[@class = 'product-card' and @data-name='Стакан']");
+        $x(goodSpecialNameXpath).shouldBe(visible);
+        SelenideElement goodSpecialName = $x(goodSpecialNameXpath);
+        goodSpecialName.shouldBe(visible);
+    }
 
+    @Test
+    @Order(7)
+    @DisplayName("Цена товара с названием Стакан через Css")
+    public void checkCssSpecialCardName() {
+        String goodSpecialCardNameCss = ".product-card[data-name='Стакан']";
+        $(goodSpecialCardNameCss).shouldBe(visible);
+        SelenideElement goodSpecialCardName = $(goodSpecialCardNameCss);
+        goodSpecialCardName.shouldBe(visible);
+    }
 
-            //Извлекаем цену товара
-            List<String> productPrice = productElementsGoods.stream()
-                    .map(WebElement::getText)
-                    .collect(Collectors.toList());
+    //Добавить товар в корзину
+    @Test
+    @Order(8)
+    public void addProductToCart() {
+        SelenideElement addToCartButton = $("button[data-action='add-to-cart'][data-name='apple-watch']");
+        addToCartButton.shouldBe(visible).shouldBe(enabled);
 
-            //Извлекаем наименование товара с ценой 25 р
-            WebElement productNameByXPath = driver.findElement(By.xpath("//h4[following-sibling::*[contains(text(), '25')]]"));
+        addToCartButton.click();
+    }
 
-            WebElement priceElement = driver.findElement(By.xpath("//h4[text()='Стакан']/following-sibling::*[contains(text(), '₽')]"));
+    @Test
+    @Order(9)
+    @DisplayName("Кнопка корзины через Css")
+    public void onlineBasketButton() {
+        SelenideElement basketButtonCss = $("#open-cart-btn");
 
-            List<WebElement> cartItems = driver.findElements(By.xpath("//*[@id=\"cart-items\"]"));
-            List<String> listOfGoods = cartItems.stream()
-                    .map(WebElement::getText)
-                    .collect(Collectors.toList());
+        $(basketButtonCss).shouldBe(visible);
+    }
 
-            WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"open-cart-btn\"]")));
-            // 3. Click the button
-            button.click();
-
-
-/*
-// Выведет: [apple-watch, TV-box, Стакан, USB-hub]
-            System.out.println(productNames);
-
-// Выведет: [74444,9800,150,25]
-            System.out.println(productPrice);
-
-// Выведет Usb-hub));
-            System.out.println("Товар найденный через XPath: " + productNameByXPath.getText());
-
-// Выведет: 150 ₽
-            System.out.println("Цена товара Стакан: " + priceElement.getText());
-
-// Список товараов в корзине
-            System.out.println("Список товаров в корзине:" + listOfGoods);
-*/
-
-
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            // 6. Обязательно закрываем браузер и завершаем сессию драйвера
-            driver.quit();
-        }
+    @Test
+    @DisplayName("Список товаров в корзине через Xpath")
+    public void checkCardList() {
+        sleep(1000);
+        SelenideElement basketButtonCss = $("#open-cart-btn");
+        basketButtonCss.click();
+        String listGoodsCardBasketXpath = ("//*[@id=\"cart-items\"]");
+        $x(listGoodsCardBasketXpath).shouldBe(visible);
+        SelenideElement listGoodsCardBasket = $x(listGoodsCardBasketXpath);
+        listGoodsCardBasket.shouldBe(visible);
     }
 }

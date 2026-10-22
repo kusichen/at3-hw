@@ -75,7 +75,7 @@ public class RestApiShopAllMethodTest {
 
     //Инициализация переменных для карточки товара
     static Integer goodsId;
-    static String goodName;
+    public static String goodName;
     static Float goodPrice;
 
     //Пререквест запрос на получение Id товара для дальнейших проверок
