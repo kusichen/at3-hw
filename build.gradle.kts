@@ -20,6 +20,7 @@ dependencies {
 
     implementation("org.seleniumhq.selenium:selenium-java:4.49.0")
     implementation("org.seleniumhq.selenium:selenium-java:4.51.0")
+    implementation("com.codeborne:selenide:7.17.0")
 }
 
 tasks.test {

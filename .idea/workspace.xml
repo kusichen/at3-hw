@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SeleniumClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/smartshop.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/smartshop.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/hw5XpathCss/CheckXpathCssClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/hw5XpathCss/CheckXpathCssClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShopAllMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShopAllMethodTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +113,11 @@
     "Gradle.RunAllTestsTest.startCheckSumToN.executor": "Run",
     "Gradle.RunAllTestsTest.startIsBlastOF.executor": "Run",
     "Gradle.RunAllTestsTest.startMethodCheckHasBug.executor": "Run",
+    "Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder.executor": "Run",
+    "Gradle.SelenideClass.executor": "Run",
+    "Gradle.SeleniumClass.checkAuthWithInvalidData.executor": "Run",
+    "Gradle.SeleniumClass.executor": "Run",
+    "Gradle.Task3ClassTest.executor": "Run",
     "JAR Application.oa_at_train_project-1.0.jar (1).executor": "Run",
     "JAR Application.oa_at_train_project-1.0.jar (2).executor": "Run",
     "JAR Application.oa_at_train_project-1.0.jar.executor": "Run",
@@ -132,7 +138,7 @@
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckXpathCssClass">
+  <component name="RunManager" selected="Gradle.Task3ClassTest">
     <configuration name="AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,7 +163,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CheckXpathCssClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelenideClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +176,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.hw5XpathCss.CheckXpathCssClass&quot;" />
+            <option value="&quot;at3.hw.selenideSelenium.SelenideClass&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,7 +187,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RestApiShopAllMethodTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +200,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest&quot;" />
+            <option value="&quot;at3.hw.selenideSelenium.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,7 +211,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RestApiShopAllMethodTest.deleteExistingGood" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -218,7 +224,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.restAPI.RestApiShopAllMethodTest.deleteExistingGood&quot;" />
+            <option value="&quot;at3.hw.selenideSelenium.SeleniumClass&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,31 +235,69 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="oa_at_train_project-1.0.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$USER_HOME$/Desktop/API-APP-SHOP/oa_at_train_project-1.0.jar/" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="SeleniumClass.checkAuthWithInvalidData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.selenideSelenium.SeleniumClass.checkAuthWithInvalidData&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="oa_at_train_project-1.0.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$USER_HOME$/Desktop/API-APP-SHOP/oa_at_train_project-1.0.jar/" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="Task3ClassTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.selenideSelenium.Task3ClassTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Gradle.AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" />
-      <item itemvalue="Gradle.CheckXpathCssClass" />
-      <item itemvalue="Gradle.RestApiShopAllMethodTest" />
-      <item itemvalue="Gradle.RestApiShopAllMethodTest.deleteExistingGood" />
-      <item itemvalue="JAR Application.oa_at_train_project-1.0.jar (1)" />
-      <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
+      <item itemvalue="Gradle.SelenideClass" />
+      <item itemvalue="Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder" />
+      <item itemvalue="Gradle.SeleniumClass" />
+      <item itemvalue="Gradle.SeleniumClass.checkAuthWithInvalidData" />
+      <item itemvalue="Gradle.Task3ClassTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CheckXpathCssClass" />
-        <item itemvalue="JAR Application.oa_at_train_project-1.0.jar (1)" />
-        <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
-        <item itemvalue="Gradle.RestApiShopAllMethodTest" />
-        <item itemvalue="Gradle.RestApiShopAllMethodTest.deleteExistingGood" />
+        <item itemvalue="Gradle.Task3ClassTest" />
+        <item itemvalue="Gradle.SelenideClass" />
+        <item itemvalue="Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder" />
+        <item itemvalue="Gradle.SeleniumClass" />
+        <item itemvalue="Gradle.SeleniumClass.checkAuthWithInvalidData" />
       </list>
     </recent_temporary>
   </component>
@@ -284,11 +328,21 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/at3/hw/restAPI/RestApiShop.java</url>
           <line>12</line>
-          <properties class="at3.hw.restAPI.RestAssured" method="restAss">
+          <properties class="at3.hw.restAPI.RestAssured">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
