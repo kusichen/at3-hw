@@ -35,7 +35,7 @@ public class SelenideClass {
     @Test
     @Order(2)
     void addGoodAndCheck() {
-        // Вводим корректные данные (Selenide автоматически очистит поле перед setValue)
+        // Вводим корректные данные
         $("#username").setValue("admin");
         $("#password").setValue("secret123");
         $("button[type='submit']").click();
@@ -48,7 +48,7 @@ public class SelenideClass {
         // Переход в магазин
         $("a[href='/']").click();
 
-        // Проверяем, что созданный товар появился и виден (sleep больше не нужен)
+        // Проверяем, что созданный товар появился и виден
         $x("//*[text()='Картон']").shouldBe(visible);
     }
 
@@ -66,13 +66,13 @@ public class SelenideClass {
     @Test
     @Order(4)
     void checkGoodsAfterRefresh() {
-        // Обновление страницы средствами Selenide
+        // Обновление страницы
         refresh();
 
         // Открываем корзину повторно
         $("#open-cart-btn").click();
 
-        // Проверяем, что цена в корзине НЕ равна "0" (исправлена логика проверки AssertJ)
+        // Проверяем, что цена в корзине НЕ равна "0"
         $x("//h2[contains(text(), 'Корзина')]/following-sibling::*//span[contains(@id, 'price')]")
                 .shouldNotHave(Condition.text("0"));
 
