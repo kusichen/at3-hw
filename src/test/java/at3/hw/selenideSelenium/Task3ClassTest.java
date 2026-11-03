@@ -50,13 +50,13 @@ public class Task3ClassTest {
                 .statusCode(200)
                 .extract().response();
 
-       this.goodId = response.jsonPath().getString("data.id");
+        this.goodId = response.jsonPath().getString("data.id");
     }
 
     @Test
     @Order(1)
     @DisplayName("Добавление трех единиц товара и проверка, что общая сумма менее 300 рублей")
-     void checkAlertMore300() {
+    void checkAlertMore300() {
 
         ElementsCollection addToCartButtons = $$x("//button[contains(text(), 'В корзину')]");
 
@@ -86,7 +86,7 @@ public class Task3ClassTest {
         SelenideElement container = $("#toast-container");
         container.shouldBe(visible);
         sleep(2000);
-       String containerText = container.getText();
+        String containerText = container.getText();
         org.assertj.core.api.Assertions.assertThat(containerText)
                 .as("Должен отображаться текст 'Заказ принят в обработку!' ")
                 .containsAnyOf("Заказ принят в обработку!");
@@ -95,7 +95,7 @@ public class Task3ClassTest {
     @Test
     @Order(2)
     @DisplayName("Проверка корректного подсчета общей суммы в корзине")
-    void checkCorrectSum(){
+    void checkCorrectSum() {
         //Запуск метода создания товара "Свитер-XXL"
         createCard();
 
@@ -106,29 +106,29 @@ public class Task3ClassTest {
         // Ищем элемент после добавления
         $("[data-id='" + goodId + "'] h4").shouldBe(visible, Duration.ofSeconds(10));
 
-            double priceCard1 = Double.parseDouble(
-                    $("#card-"+goodId + "> div:nth-child(2)").getText().replaceAll("[^0-9.]", "")
-            );
-            $("button[data-action='add-to-cart'][data-name='Свитер-XXL']").click();
+        double priceCard1 = Double.parseDouble(
+                $("#card-" + goodId + "> div:nth-child(2)").getText().replaceAll("[^0-9.]", "")
+        );
+        $("button[data-action='add-to-cart'][data-name='Свитер-XXL']").click();
 
-            double priceCard2 = Double.parseDouble(
-                    $("#card-9 > div:nth-child(2)").getText().replaceAll("[^0-9.]", "")
-            );
-            $x("//*[@id=\"card-9\"]/button").click();
+        double priceCard2 = Double.parseDouble(
+                $("#card-9 > div:nth-child(2)").getText().replaceAll("[^0-9.]", "")
+        );
+        $x("//*[@id=\"card-9\"]/button").click();
 
-            double expectedTotal = priceCard1 + priceCard2;
+        double expectedTotal = priceCard1 + priceCard2;
 
-            $("#open-cart-btn").click();
-            sleep(2000);
+        $("#open-cart-btn").click();
+        sleep(2000);
 
-            String totalSumText = $x("//*[@id=\"total-price\"]").shouldBe(Condition.visible).getText();
-            double actualTotal = Double.parseDouble(totalSumText.replaceAll("[^0-9.]", ""));
+        String totalSumText = $x("//*[@id=\"total-price\"]").shouldBe(Condition.visible).getText();
+        double actualTotal = Double.parseDouble(totalSumText.replaceAll("[^0-9.]", ""));
     }
 
     @Test
     @Order(3)
     @DisplayName("Добавление товара через админку")
-    void addGoodByAdmin(){
+    void addGoodByAdmin() {
 
         // 1. Закрываем корзину (найдите крестик по его тексту или классу)
         $x("//*[@id=\"close-modal\"]").click(); // или $(byText("×")).click();
@@ -161,7 +161,7 @@ public class Task3ClassTest {
     @Test
     @DisplayName("Редактирование товара через админку")
     @Order(4)
-    void editGoodByAdmin(){
+    void editGoodByAdmin() {
         open("/admin");
 
         $x("//*[@value=\"Свитер-XXL\"]").clear();
@@ -186,8 +186,8 @@ public class Task3ClassTest {
         $x("//*[text()='Пулловер-XXL']").shouldBe(visible);
     }
 
-   @AfterAll
-   public static void deleteTestData(){
+    @AfterAll
+    public static void deleteTestData() {
         Response response = given()
                 .baseUri("http://localhost:8080/")
                 .auth()
