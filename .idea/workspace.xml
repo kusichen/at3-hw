@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SpecialActionWithElementsClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/smartshop.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/smartshop.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +114,8 @@
     "Gradle.SelenideClass.executor": "Run",
     "Gradle.SeleniumClass.checkAuthWithInvalidData.executor": "Run",
     "Gradle.SeleniumClass.executor": "Run",
+    "Gradle.SpecialActionWithElementsClass.dragAndDropGoodAndRemove.executor": "Run",
+    "Gradle.SpecialActionWithElementsClass.executor": "Run",
     "Gradle.Task3ClassTest.checkCorrectSum.executor": "Run",
     "Gradle.Task3ClassTest.executor": "Run",
     "JAR Application.oa_at_train_project-1.0.jar (1).executor": "Run",
@@ -134,7 +138,7 @@
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SelenideClass">
+  <component name="RunManager" selected="Gradle.SpecialActionWithElementsClass">
     <configuration name="AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,7 +187,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpecialActionWithElementsClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,7 +200,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;at3.hw.selenideSelenium.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder&quot;" />
+            <option value="&quot;at3.hw.selenideSelenium.SpecialActionWithElementsClass&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpecialActionWithElementsClass.dragAndDropGoodAndRemove" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.selenideSelenium.SpecialActionWithElementsClass.dragAndDropGoodAndRemove&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -231,30 +259,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Task3ClassTest.checkCorrectSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;at3.hw.selenideSelenium.Task3ClassTest.checkCorrectSum&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="oa_at_train_project-1.0.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$USER_HOME$/Desktop/API-APP-SHOP/oa_at_train_project-1.0.jar/" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -262,19 +266,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" />
-      <item itemvalue="Gradle.Task3ClassTest.checkCorrectSum" />
+      <item itemvalue="Gradle.SpecialActionWithElementsClass" />
+      <item itemvalue="Gradle.SpecialActionWithElementsClass.dragAndDropGoodAndRemove" />
       <item itemvalue="Gradle.SelenideClass" />
-      <item itemvalue="Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder" />
       <item itemvalue="Gradle.Task3ClassTest" />
       <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SelenideClass" />
+        <item itemvalue="Gradle.SpecialActionWithElementsClass" />
+        <item itemvalue="Gradle.SpecialActionWithElementsClass.dragAndDropGoodAndRemove" />
         <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
+        <item itemvalue="Gradle.SelenideClass" />
         <item itemvalue="Gradle.Task3ClassTest" />
-        <item itemvalue="Gradle.Task3ClassTest.checkCorrectSum" />
-        <item itemvalue="Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder" />
       </list>
     </recent_temporary>
   </component>
