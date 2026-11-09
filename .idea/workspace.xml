@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/GoodsInShopCheckClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/DeleteGoodListClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/smartshop.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/smartshop.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SeleniumClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SeleniumClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,10 +277,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Task3ClassTest" />
+        <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
         <item itemvalue="Gradle.SeleniumClass.checkAuthWithInvalidData" />
         <item itemvalue="Gradle.Task3ClassTest.checkAlertMore300" />
         <item itemvalue="Gradle.Task3ClassTest.checkCorrectSum" />
-        <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
       </list>
     </recent_temporary>
   </component>

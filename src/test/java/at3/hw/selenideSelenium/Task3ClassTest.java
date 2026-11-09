@@ -16,7 +16,6 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.sleep;
 import static io.restassured.RestAssured.given;
 
-
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class Task3ClassTest {
 
@@ -46,6 +45,15 @@ public class Task3ClassTest {
     void tearDown(){
         Selenide.closeWebDriver();
     }
+
+    /**Пока данный метод задизаблен из-за дефекта. Невозможно удалить некоторые товары.
+    Вместо этого будет удаление некоторых товаров, которые создали через админку или API
+    @AfterEach
+    void deleteCurrentGoodList(){
+
+        DeleteGoodListClass deleteGoodListClass = new DeleteGoodListClass();
+        deleteGoodListClass.deleteVisibleProductsViaApi();
+    }**/
 
     //Доп.метод 1. Подготовка тестовых данных для подсчета суммы товаров в корзине
     public void createOneCard() {
