@@ -52,7 +52,6 @@ public class DeleteGoodListClass {
         for (int id : productIds) {
             System.out.println("Отправка запроса на удаление товара с id: " + id);
 
-            //Пример выполнения DELETE-запроса через RestAssured
             RestAssured.given()
                     .baseUri("http://localhost:8080/")
                     .auth()
