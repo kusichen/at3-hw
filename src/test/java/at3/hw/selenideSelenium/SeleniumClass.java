@@ -5,8 +5,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 import static java.lang.Thread.sleep;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class SeleniumClass {
@@ -28,8 +33,16 @@ public class SeleniumClass {
         driver.findElement(By.id("password")).sendKeys("qwerty123");
         driver.findElement(By.cssSelector("button[type='submit']")).click();
 
-        WebElement alertMessage = driver.findElement(By.xpath("//*[contains(text(), 'Неверные учетные данные')]"));
-        alertMessage.isDisplayed();
+        // Ждем появления элемента на странице
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement alertMessage = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(), 'Неверные учетные данные')]"))
+        );
+
+        // Используя AssertJ, добавил проверку видимости
+        assertThat(alertMessage.isDisplayed())
+                .as("Сообщение об ошибке авторизации должно отображаться на экране")
+                .isTrue();
     }
 
     @Test

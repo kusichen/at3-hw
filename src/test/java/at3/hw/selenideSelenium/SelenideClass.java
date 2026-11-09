@@ -4,6 +4,7 @@ import com.codeborne.selenide.*;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Alert;
 
+import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -74,7 +75,7 @@ public class SelenideClass {
 
         // Проверяем, что цена в корзине НЕ равна "0"
         $x("//h2[contains(text(), 'Корзина')]/following-sibling::*//span[contains(@id, 'price')]")
-                .shouldNotHave(Condition.text("0"));
+                .shouldNotHave(exactText("0"));
 
         $x("//*[@id=\"close-modal\"]").click();
 
