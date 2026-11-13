@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/DeleteGoodListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/DeleteGoodListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/GoodsInShopCheckClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/GoodsInShopCheckClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SpecialActionWithElementsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SpecialActionWithElementsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/smartshop.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/smartshop.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +139,7 @@
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SelenideClass">
+  <component name="RunManager" selected="Gradle.Task3ClassTest">
     <configuration name="AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -281,9 +275,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SelenideClass" />
         <item itemvalue="Gradle.Task3ClassTest" />
         <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
+        <item itemvalue="Gradle.SelenideClass" />
         <item itemvalue="Gradle.SeleniumClass.checkAuthWithInvalidData" />
         <item itemvalue="Gradle.Task3ClassTest.checkAlertMore300" />
       </list>
