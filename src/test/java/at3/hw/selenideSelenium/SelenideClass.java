@@ -3,6 +3,8 @@ package at3.hw.selenideSelenium;
 import com.codeborne.selenide.*;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Alert;
+import utils.BaseTest;
+import utils.ConfigClass;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
@@ -10,12 +12,13 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class SelenideClass {
+public class SelenideClass extends BaseTest {
 
     @BeforeAll
     static void setUp() {
         // Базовый URL
-        Configuration.baseUrl = "http://localhost:8080";
+       Configuration.baseUrl = ConfigClass.get("app.url");
+
         // Страница авторизации
         open("/login");
     }
@@ -37,31 +40,31 @@ public class SelenideClass {
     @Order(2)
     void addGoodAndCheck() {
         // Вводим корректные данные
-        $("#username").setValue("admin");
-        $("#password").setValue("secret123");
+        $("#username").setValue(ConfigClass.get("admin.username"));
+        $("#password").setValue(ConfigClass.get("admin.password"));
         $("button[type='submit']").click();
 
         // Заполнение формы нового товара
-        $("input[placeholder='Название']").setValue("Картон");
-        $("input[placeholder='Цена']").setValue("198.00");
+        $("input[placeholder='Название']").setValue(ConfigClass.get("product.name"));
+        $("input[placeholder='Цена']").setValue(ConfigClass.get("product.price"));
         $("#add-btn").click();
 
         // Переход в магазин
         $("a[href='/']").click();
 
         // Проверяем, что созданный товар появился и виден
-        $x("//*[text()='Картон']").shouldBe(visible);
+        $x("//*[text()='"+ConfigClass.get("product.name")+"']").shouldBe(visible);
     }
 
     @Test
     @Order(3)
     void addToOnlineBasket() {
         // Добавление в корзину и открытие корзины
-        $x("//*[h4[text()='Картон']]//button[contains(text(), 'В корзину')]").click();
+        $x("//*[h4[text()='"+ConfigClass.get("product.name")+"']]//button[contains(text(), 'В корзину')]").click();
         $("#open-cart-btn").click();
 
         // Проверяем отображение товара в корзине
-        $x("//h2[contains(text(), 'Корзина')]/following-sibling::*[contains(., 'Картон')]").shouldBe(visible);
+        $x("//h2[contains(text(), 'Корзина')]/following-sibling::*[contains(., '"+ConfigClass.get("product.name")+"')]").shouldBe(visible);
     }
 
     @Test

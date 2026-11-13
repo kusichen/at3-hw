@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a499fa-5195-4493-b973-7098a18402f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/DeleteGoodListClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/smartshop.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/smartshop.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/DeleteGoodListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/DeleteGoodListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/GoodsInShopCheckClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/GoodsInShopCheckClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SelenideClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SpecialActionWithElementsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/SpecialActionWithElementsClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at3/hw/selenideSelenium/Task3ClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,83 +69,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AT3-MyHW [:CheckXpathCssClass.main()].executor": "Run",
-    "Gradle.AT3-MyHW [:test --test \"RestAssured.restAss\"].executor": "Run",
-    "Gradle.AT3-MyHW [:test --tests \"RestAssured.restAss\"].executor": "Run",
-    "Gradle.CheckAccessTest.executor": "Run",
-    "Gradle.CheckCalcAvgTest.executor": "Run",
-    "Gradle.CheckEvenInRangeTest.executor": "Run",
-    "Gradle.CheckFindMaxInRangeTest.executor": "Run",
-    "Gradle.CheckGradeTest.executor": "Run",
-    "Gradle.CheckHasBugTest.executor": "Run",
-    "Gradle.CheckIsBlastOffTest.executor": "Run",
-    "Gradle.CheckIsEvenTest.executor": "Run",
-    "Gradle.CheckIsPositiveTest.executor": "Run",
-    "Gradle.CheckRemovedNameTest.executor": "Run",
-    "Gradle.CheckReverseTest.executor": "Run",
-    "Gradle.CheckSumToNTest (1).executor": "Run",
-    "Gradle.CheckSumToNTest.executor": "Run",
-    "Gradle.CheckXpathCssClass.executor": "Run",
-    "Gradle.RestApiShop.checkEmptyGoodsShop.executor": "Run",
-    "Gradle.RestApiShop.checkEmptyGoodsShopAgain.executor": "Run",
-    "Gradle.RestApiShop.createGoodCardInShop.executor": "Run",
-    "Gradle.RestApiShop.executor": "Run",
-    "Gradle.RestApiShop.getGoodCardAndAssert.executor": "Run",
-    "Gradle.RestApiShop.getGoodsInShop.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.createGoodCard.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.createGoodCardWithExistingName.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.deleteExistingGood.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.deleteNoneExistingGood.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.getGoodById.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.getGoodsListToFetchId.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.getNotExistingGoodById.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.patchGoodNotCorrectly.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.patchNotExistingGoodCardInShop.executor": "Run",
-    "Gradle.RestApiShopAllMethodTest.updateGoodCardInShop.executor": "Run",
-    "Gradle.RestAssured.executor": "Run",
-    "Gradle.RestAssured.restAss.executor": "Run",
-    "Gradle.RunAllTestsTest.executor": "Run",
-    "Gradle.RunAllTestsTest.startCheckAccess.executor": "Run",
-    "Gradle.RunAllTestsTest.startCheckEvenInRange.executor": "Run",
-    "Gradle.RunAllTestsTest.startCheckIsEven.executor": "Run",
-    "Gradle.RunAllTestsTest.startCheckIsPositive.executor": "Run",
-    "Gradle.RunAllTestsTest.startCheckRemovedName.executor": "Run",
-    "Gradle.RunAllTestsTest.startCheckSumToN.executor": "Run",
-    "Gradle.RunAllTestsTest.startIsBlastOF.executor": "Run",
-    "Gradle.RunAllTestsTest.startMethodCheckHasBug.executor": "Run",
-    "Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder.executor": "Run",
-    "Gradle.SelenideClass.executor": "Run",
-    "Gradle.SeleniumClass.checkAuthWithInvalidData.executor": "Run",
-    "Gradle.SeleniumClass.executor": "Run",
-    "Gradle.SpecialActionWithElementsClass.dragAndDropGoodAndRemove.executor": "Run",
-    "Gradle.SpecialActionWithElementsClass.executor": "Run",
-    "Gradle.Task3ClassTest.checkAlertMore300.executor": "Run",
-    "Gradle.Task3ClassTest.checkCorrectSum.executor": "Run",
-    "Gradle.Task3ClassTest.executor": "Run",
-    "JAR Application.oa_at_train_project-1.0.jar (1).executor": "Run",
-    "JAR Application.oa_at_train_project-1.0.jar (2).executor": "Run",
-    "JAR Application.oa_at_train_project-1.0.jar.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "rest-api",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/usich/Desktop/API-APP-SHOP",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.55517244",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AT3-MyHW [:CheckXpathCssClass.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AT3-MyHW [:test --test \&quot;RestAssured.restAss\&quot;].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AT3-MyHW [:test --tests \&quot;RestAssured.restAss\&quot;].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckAccessTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckCalcAvgTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckEvenInRangeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckFindMaxInRangeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckGradeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckHasBugTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckIsBlastOffTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckIsEvenTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckIsPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckRemovedNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckReverseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckSumToNTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckSumToNTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckXpathCssClass.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShop.checkEmptyGoodsShop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShop.checkEmptyGoodsShopAgain.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShop.createGoodCardInShop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShop.getGoodCardAndAssert.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShop.getGoodsInShop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.createGoodCard.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.createGoodCardWithExistingName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.deleteExistingGood.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.deleteNoneExistingGood.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.getGoodById.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.getGoodsListToFetchId.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.getNotExistingGoodById.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.patchGoodNotCorrectly.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.patchNotExistingGoodCardInShop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestApiShopAllMethodTest.updateGoodCardInShop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestAssured.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestAssured.restAss.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckEvenInRange.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckIsEven.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckIsPositive.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckRemovedName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startCheckSumToN.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startIsBlastOF.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RunAllTestsTest.startMethodCheckHasBug.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideClass.addGoodsToBasketMoreThan300RubAndMakeOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideClass.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumClass.checkAuthWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumClass.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpecialActionWithElementsClass.dragAndDropGoodAndRemove.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpecialActionWithElementsClass.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Task3ClassTest.checkAlertMore300.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Task3ClassTest.checkCorrectSum.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Task3ClassTest.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.oa_at_train_project-1.0.jar (1).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.oa_at_train_project-1.0.jar (2).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.oa_at_train_project-1.0.jar.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rest-api&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/usich/Desktop/API-APP-SHOP&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.55517244&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyGit\AT3-MyHW\src\test\java" />
       <recent name="C:\MyGit\AT3-MyHW\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Task3ClassTest">
+  <component name="RunManager" selected="Gradle.SelenideClass">
     <configuration name="AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,6 +168,30 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SelenideClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;at3.hw.selenideSelenium.SelenideClass&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="SeleniumClass.checkAuthWithInvalidData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -237,30 +266,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Task3ClassTest.checkCorrectSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;at3.hw.selenideSelenium.Task3ClassTest.checkCorrectSum&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="oa_at_train_project-1.0.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$USER_HOME$/Desktop/API-APP-SHOP/oa_at_train_project-1.0.jar/" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -268,19 +273,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.AT3-MyHW [:test --tests &quot;RestAssured.restAss&quot;]" />
+      <item itemvalue="Gradle.SelenideClass" />
       <item itemvalue="Gradle.SeleniumClass.checkAuthWithInvalidData" />
       <item itemvalue="Gradle.Task3ClassTest.checkAlertMore300" />
-      <item itemvalue="Gradle.Task3ClassTest.checkCorrectSum" />
       <item itemvalue="Gradle.Task3ClassTest" />
       <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SelenideClass" />
         <item itemvalue="Gradle.Task3ClassTest" />
         <item itemvalue="JAR Application.oa_at_train_project-1.0.jar" />
         <item itemvalue="Gradle.SeleniumClass.checkAuthWithInvalidData" />
         <item itemvalue="Gradle.Task3ClassTest.checkAlertMore300" />
-        <item itemvalue="Gradle.Task3ClassTest.checkCorrectSum" />
       </list>
     </recent_temporary>
   </component>

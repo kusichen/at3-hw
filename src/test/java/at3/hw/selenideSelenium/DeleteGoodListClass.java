@@ -5,13 +5,15 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import io.restassured.RestAssured;
+import utils.BaseTest;
+import utils.ConfigClass;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.$$;
 
-public class DeleteGoodListClass {
+public class DeleteGoodListClass extends BaseTest {
 
 
     /**
@@ -21,7 +23,7 @@ public class DeleteGoodListClass {
     public void deleteVisibleProductsViaApi() {
         System.out.println("Сбор товаров с UI для получения ID...");
 
-        Configuration.baseUrl = "http://localhost:8080";
+        Configuration.baseUrl = ConfigClass.get("app.url");
         Selenide.open("/");
 
         // Локатор для всех карточек товаров на странице магазина
@@ -53,11 +55,9 @@ public class DeleteGoodListClass {
             System.out.println("Отправка запроса на удаление товара с id: " + id);
 
             RestAssured.given()
-                    .baseUri("http://localhost:8080/")
+                    .baseUri(ConfigClass.get("app.url"))
                     .auth()
-                    .basic("admin", "secret123")
-                    .auth()
-                    .basic("admin", "secret123")
+                    .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                     .when()
                     .delete("/api/products/" + id)
                     .then()

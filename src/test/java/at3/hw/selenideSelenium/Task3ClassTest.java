@@ -5,6 +5,8 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
+import utils.BaseTest;
+import utils.ConfigClass;
 
 import java.time.Duration;
 import java.util.Random;
@@ -17,7 +19,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 import static io.restassured.RestAssured.given;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class Task3ClassTest {
+public class Task3ClassTest extends BaseTest {
 
     public static String goodIdOne;
     public static String goodIdTwo;
@@ -35,7 +37,7 @@ public class Task3ClassTest {
     void setUp() {
         // Базовый URL
         Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl = "http://localhost:8080";
+        Configuration.baseUrl = ConfigClass.get("app.url");
         // Страница авторизации
         open("/");
 
@@ -58,9 +60,9 @@ public class Task3ClassTest {
     //Доп.метод 1. Подготовка тестовых данных для подсчета суммы товаров в корзине
     public void createOneCard() {
         Response response = given()
-                .baseUri("http://localhost:8080/")
+                .baseUri(ConfigClass.get("app.url"))
                 .auth()
-                .basic("admin", "secret123")
+                .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                 .contentType(ContentType.JSON)
                 .body("""
                         {
@@ -81,9 +83,9 @@ public class Task3ClassTest {
     //Доп.метод 2. Подготовка тестовых данных для подсчета суммы товаров в корзине
     public void createOtherCard() {
         Response response = given()
-                .baseUri("http://localhost:8080/")
+                .baseUri(ConfigClass.get("app.url"))
                 .auth()
-                .basic("admin", "secret123")
+                .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                 .contentType(ContentType.JSON)
                 .body("""
                         {
@@ -140,7 +142,7 @@ public class Task3ClassTest {
 
             SelenideElement container = $("#toast-container");
             container.shouldBe(visible);
-            sleep(2000);
+            sleep(ConfigClass.getInt("element.timeout"));
             String containerText = container.getText();
             org.assertj.core.api.Assertions.assertThat(containerText)
                     .as("Должен отображаться текст 'Заказ принят в обработку!' ")
@@ -170,7 +172,7 @@ public class Task3ClassTest {
         // Запуск метода создания товара "Галстук"
         createOtherCard();
 
-        sleep(3000);
+        sleep(ConfigClass.getInt("element.timeout"));
 
         //Обновить страницу в браузере
         refresh();
@@ -195,7 +197,7 @@ public class Task3ClassTest {
         double expectedTotal = priceCard1 + priceCard2;
 
         $("#open-cart-btn").click();
-        sleep(2000);
+        sleep(ConfigClass.getInt("element.timeout"));
 
         String totalSumText = $x("//*[@id=\"total-price\"]").shouldBe(Condition.visible).getText();
 
@@ -228,7 +230,7 @@ public class Task3ClassTest {
 
         SelenideElement container = $("#toast-container");
         container.shouldBe(visible);
-        sleep(2000);
+        sleep(ConfigClass.getInt("element.timeout"));
         String containerText = container.getText();
         org.assertj.core.api.Assertions.assertThat(containerText)
                 .as("Должен отображаться текст 'Товар успешно добавлен!' ")
@@ -253,14 +255,14 @@ public class Task3ClassTest {
 
         SelenideElement container = $("#toast-container");
         container.shouldBe(visible);
-        sleep(2000);
+        sleep(ConfigClass.getInt("element.timeout"));
         String containerText = container.getText();
         org.assertj.core.api.Assertions.assertThat(containerText)
                 .as("Должен отображаться текст,то товар обновлен ")
                 .containsAnyOf("обновлен");
 
         refresh();
-        sleep(3000);
+        sleep(ConfigClass.getInt("element.timeout"));
 
         // Переход в магазин
         $("a[href='/']").click();
@@ -271,11 +273,9 @@ public class Task3ClassTest {
     @AfterAll
     public static void deleteGoodOne() {
         Response response = given()
-                .baseUri("http://localhost:8080/")
+                .baseUri(ConfigClass.get("api.url"))
                 .auth()
-                .basic("admin", "secret123")
-                .auth()
-                .basic("admin", "secret123")
+                .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                 .pathParam("id", goodIdOne)
                 .when()
                 .delete("/goods/{id}")
@@ -291,11 +291,9 @@ public class Task3ClassTest {
     @AfterAll
     public static void deleteGoodTwo() {
         Response response = given()
-                .baseUri("http://localhost:8080/")
+                .baseUri(ConfigClass.get("api.url"))
                 .auth()
-                .basic("admin", "secret123")
-                .auth()
-                .basic("admin", "secret123")
+                .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                 .pathParam("id", goodIdTwo)
                 .when()
                 .delete("/goods/{id}")
@@ -311,7 +309,7 @@ public class Task3ClassTest {
     @AfterAll
     public static void deleteGoodThree() {
 
-        open("http://localhost:8080/");
+        open(ConfigClass.get("app.url"));
         //Ищем товар в магазине
         SelenideElement productCard = $x("//*[h4[text()='Калькулятор-NEW-MODEL']]").shouldHave(text("Калькулятор-NEW-MODEL"));
 
@@ -321,11 +319,9 @@ public class Task3ClassTest {
         System.out.println("ID найденного товара: " + goodIdThree);
 
         Response response = given()
-                .baseUri("http://localhost:8080/")
+                .baseUri(ConfigClass.get("api.url"))
                 .auth()
-                .basic("admin", "secret123")
-                .auth()
-                .basic("admin", "secret123")
+                .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                 .pathParam("id", goodIdThree)
                 .when()
                 .delete("/goods/{id}")
@@ -337,5 +333,4 @@ public class Task3ClassTest {
                 .as("Статус код должен быть 200")
                 .isEqualTo(200);
     }
-
 }

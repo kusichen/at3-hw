@@ -6,12 +6,14 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+import utils.BaseTest;
+import utils.ConfigClass;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Random;
 
-public class GoodsInShopCheckClass {
+public class GoodsInShopCheckClass extends BaseTest {
 
         /**
          * Проверяем наличие товаров в магазине.
@@ -20,7 +22,7 @@ public class GoodsInShopCheckClass {
         public void checkProductsExisting() {
             System.out.println("Проверка наличие товаров в магазине");
 
-            Configuration.baseUrl = "http://localhost:8080";
+            Configuration.baseUrl = ConfigClass.get("app.url");
             open("/");
 
             // Локатор карточек товаров в магазине

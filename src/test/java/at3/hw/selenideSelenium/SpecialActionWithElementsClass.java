@@ -5,18 +5,20 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import utils.BaseTest;
+import utils.ConfigClass;
 
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class SpecialActionWithElementsClass {
+public class SpecialActionWithElementsClass extends BaseTest {
 
     @Test
     @DisplayName("Перетащить элемент в корзину и удалить")
     void dragAndDropGoodAndRemove() {
-        Configuration.baseUrl = "http://localhost:8080";
+        Configuration.baseUrl = ConfigClass.get("app.url");
         open("/");
 
         //Находим товар для перетаскивания
