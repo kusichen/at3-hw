@@ -18,17 +18,16 @@ public class ConfigClass {
                 .getResourceAsStream("config.properties")) {
 
             if(input == null){
-                throw new RuntimeException("config.properties не найден!");
+                throw new RuntimeException("config.properties не найден");
             }
             properties.load(input);
 
         }
         catch(IOException e){
-            throw new RuntimeException("Ошибка при загрузке конфиг файла!");
-
+            throw new RuntimeException("Ошибка при загрузке конфиг файла!",e);
         }
     }
-
+    
     public static String get(String key){
         String value = properties.getProperty(key);
         if(value == null){

@@ -61,7 +61,7 @@ public class Task3ClassTest extends BaseTest {
     public void createOneCard() {
         Response response = given()
                 .baseUri(ConfigClass.get("app.url"))
-                .auth()
+                .auth().preemptive()
                 .basic(ConfigClass.get("admin.username"), ConfigClass.get("admin.password"))
                 .contentType(ContentType.JSON)
                 .body("""
@@ -228,6 +228,7 @@ public class Task3ClassTest extends BaseTest {
         $("input[placeholder='Цена']").setValue("22.00");
         $(By.id("add-btn")).click();
 
+        sleep(ConfigClass.getInt("element.timeout"));
         SelenideElement container = $("#toast-container");
         container.shouldBe(visible);
         sleep(ConfigClass.getInt("element.timeout"));
